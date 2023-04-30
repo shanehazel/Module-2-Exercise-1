@@ -8,14 +8,16 @@ def process ():
         for line in input_file:
             print(line.strip())
             input_num = int(line)
-            
+
             # if even,
             if input_num % 2 == 0:
                 # write to even.txt
                 output_even.write(str(input_num) + "\n")
             
             # if odd,
+            else: 
                 # write to odd.txt
+                output_odd.write(str(input_num) + "\n")
 
 # end of method
 process()
