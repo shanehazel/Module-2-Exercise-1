@@ -1,6 +1,7 @@
 # pseudocode
 
 # make a method
+def process ():
 # open numbers.txt file (read), even.txt (append), odd.txt (append)
 # read numbers.txt line by line
 # if even,
